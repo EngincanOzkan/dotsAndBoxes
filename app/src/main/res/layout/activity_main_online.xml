@@ -5,7 +5,8 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context=".MainActivity">
+    tools:context=".MainActivityOnline"
+    android:id="@+id/mymainlayout">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -37,18 +38,6 @@
             android:text=" Red Player: 0"
             android:textColor="@color/myred"
             android:textSize="16sp"
-            tools:fontFamily="@font/arialroundedbold" />
-
-        <Button
-            android:id="@+id/btn_reset"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_alignParentEnd="true"
-            android:layout_centerVertical="true"
-            android:layout_marginEnd="33dp"
-            android:background="@drawable/resetbuttonview"
-            android:text="Reset"
-            android:textColor="@android:color/white"
             tools:fontFamily="@font/arialroundedbold" />
 
         <ImageView

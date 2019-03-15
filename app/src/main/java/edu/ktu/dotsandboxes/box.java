@@ -22,8 +22,25 @@ public class box {
         }
     }
 
+    public int getWall1() {
+        return wall1;
+    }
+
+    public int getWall2() {
+        return wall2;
+    }
+
+    public int getWall3() {
+        return wall3;
+    }
+
+    public int getWall4() {
+        return wall4;
+    }
+
     public int setWall2(int player){
         wall2 = player;
+
         if(wall1 != 0 && wall3 != 0 && wall4 != 0){
             setWhoWin(player);
             return player;
